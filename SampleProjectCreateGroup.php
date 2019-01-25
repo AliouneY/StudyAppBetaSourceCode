@@ -151,10 +151,10 @@
 			}
 		  }
 		</script>
-		<!--<script src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAKBoF7WH8D_y9Gg4lKQt55W7uIXyYyJis&callback=initMap"></script>-->
-		<!--<script src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyDi0n3nInlneUKNf1pSbeYeNOb--KePi4Q&callback=initMap"></script> the free one that worked-->
-		<!--<script src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCdkSh8ZdP-vTcNVn6v-kCkt9Hv6wjQPC4&callback=initMap"></script>  Chrystian's Key-->
-		<script src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAe4Y4_tzZjyrTr21BpIKoRRZwa_TzrIOw&callback=initMap"></script>
+		<!--<script src = "https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap"></script>-->
+		<!--<script src = "https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap"></script> the free one that worked-->
+		<!--<script src = "https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap"></script>  Chrystian's Key-->
+		<script src = "https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap"></script>
 		<script>
 			<?php echo $script; ?>
 		</script>
