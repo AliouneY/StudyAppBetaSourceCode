@@ -1,0 +1,480 @@
+html, body
+{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+/* Login Page */
+
+.space50
+{
+	padding-top: 50px;
+}
+
+#logo
+{
+	padding-top: 50px;
+	margin: 0 auto;
+	width: 10%;
+	height: 20%;
+}
+
+#loginContainer
+{
+	margin-left: 42%;
+	width: 36%;
+	height: 30%;
+}
+
+.customizeInput
+{
+	height: 20px;
+	width: 200px;
+	border-radius: 5px;
+	border: none;
+	padding: 5px;
+	margin: 2px;
+}
+
+.customizeButton
+{
+	height: 20px;
+	width: 120px;
+	border-radius: 5px;
+	border: none;
+	background-color: #00e600;
+	margin-left: 9%;
+}
+
+.customizeButton:hover
+{
+	cursor: pointer;
+	color: white;
+}
+
+#email
+{
+	position: relative;
+	animation-name: riseOutOfNoWhere;
+	animation-duration: 1.5s;
+}
+
+#password
+{
+	position: relative;
+	animation-name: riseOutOfNoWhere;
+	animation-duration: 2s;
+}
+
+#login
+{
+	position: relative;
+	animation-name: riseOutOfNoWhere;
+	animation-duration: 2.5s;
+}
+
+#createAccount
+{
+	position: relative;
+	animation-name: riseOutOfNoWhere;
+	animation-duration: 3s;
+}
+
+@keyframes riseOutOfNoWhere
+{
+	0% {opacity: 0; top: 50px;}
+	100% {opacity: 1; top: 0px;}
+}
+
+.fadeIn
+{
+	animation-name: appearOutOfNoWhere;
+	animation-duration: 7s;
+}
+
+@keyframes appearOutOfNoWhere
+{
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+/* Create Account Page */
+#createAccountContainer
+{
+	padding-top: 11%;
+	margin-left: 42%;
+	width: 36%;
+	height: 30%;
+}
+
+/* HomePage */
+#container
+{
+	background-color: #cce6ff;
+	margin: 0 auto;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#header
+{
+	margin: 0 auto;
+	padding: 0px;
+	width: 100%;
+	height:9%;
+	background-color: #e6f3ff;
+}
+
+::-webkit-scrollbar
+{
+	width: 0px;
+	height: 0px;
+}
+
+#headerLeftHalf
+{
+	float: left;
+	height: 100%;
+	width: 50%;
+	position: relative;
+}
+
+#profilePicDropdown
+{
+	height: 100%;
+	width: 16.875%;
+	margin-left: 20%;
+}
+
+#dropdownContent
+{
+	width: 120%;
+	height: 200%;
+	background-color: #b3daff;
+}
+
+.standardPosition
+{
+	margin-left: 33.5%;
+	margin-top: 4%;
+	height: 100%;
+}
+
+.dropdownContent
+{
+	width: 100%;
+	height: 14.29%;
+	background-color: #b3daff;
+	border: none;
+}
+
+.dropdownContent:hover
+{
+	background-color: #71dada;
+	cursor: pointer;
+}
+
+.roundProfilePic
+{
+	border-radius: 50%;
+}
+
+.customizeDropdown
+{
+	height: 100%;
+	width: 25%;
+	float: right;
+	border: none;
+	background-color: #e6f3ff;
+}
+
+.dropDown
+{
+	display: relative;
+	display: inline-block;
+}
+
+#topHalf
+{
+	margin: 0 auto;
+	padding: 0px;
+	width: 100%;
+	height: 79.625%;
+	overflow: scroll;
+}
+
+#dotContainer
+{
+	height: 2%;
+	width: 4.5%;
+	position: absolute;
+	/*background-color: #cce6ff;*/
+	margin-top: 1%;
+	margin-left: 47%;
+}
+
+.clickableDot
+{
+	width: 25.5%;
+	height: 100%;
+	border-radius: 100%;
+	border-style: solid;
+	border-color: white;
+	/*background-color: #cce6ff;*/
+}
+
+.clickableDot:hover
+{
+	cursor: pointer;
+}
+
+.displayGroupsJoinedHome
+{
+	display: grid;
+	grid-template-columns: 17% 24.5% 24.5% 17% 17%;
+	height: 10%;
+	width: 100%;
+	background-color: #80c1ff;
+}
+
+#slideContainer
+{
+	width: 62.5%;
+	height: 100%;
+	margin-left: 18.75%;
+	margin-top: 2.5%;
+}
+
+#leftSlide
+{
+	background-color: white;
+}
+
+#slide1
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+#slide2
+{
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+
+#slide3
+{
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+
+#bottomHalf
+{
+	margin: 0 auto;
+	padding: 0px;
+	width: 100%;
+	height: 11.375%;
+	background-color: #e6f3ff;
+}
+
+.defaultMessage
+{
+	font-family: "Roboto Slab", "Times New Roman";
+	text-align: center;
+	padding-top: 10%;
+	color: gray;
+	font-size: 20px;
+}
+
+/* Add Classes Page */
+#classSearch
+{
+	margin-left: 33.5%;
+	margin-top: 5.5%;
+}
+
+/* Edit Profile Page */
+#profileLeftHalf
+{
+	float: left;
+	width: 40%;
+	height: 100%;
+	background-color: #cce6ff;
+}
+
+#profileRightHalf
+{
+	float: right;
+	width: 60%;
+	height: 100%;
+}
+
+#profileTopRight
+{
+	width: 100%;
+	height: 50%;
+	background-color: #b3daff;
+	overflow: scroll;
+	border: 2px;
+}
+
+.displayClassInfo
+{
+	display: grid;
+	grid-template-columns: 17% 26% 20% 20% 17%;
+	height: 20%;
+	width: 100%;
+}
+
+#profileBottomRight
+{
+	width: 100%;
+	height: 50%;
+	background-color: #b3daff;
+	overflow: scroll;
+}
+
+.displayProfileInfo
+{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	height: 20%;
+}
+
+.displayGroupsJoinedProfile
+{
+	display: grid;
+	grid-template-columns: 17% 17% 24.5% 24.5% 17%;
+	height: 20%;
+	width: 100%;
+}
+
+.customizeSmallButton
+{
+	height: 20px;
+	width: 70px;
+	border-radius: 5px;
+	border: none;
+	background-color: #00e600;
+}
+
+.customizeSmallButton:hover
+{
+	cursor: pointer;
+	color: white;
+}
+
+.exitButton
+{
+	background-color: #d9d9d9;
+	border: none;
+	float: right;
+}
+
+.exitButton:hover
+{
+	cursor: pointer;
+	color: red;
+}
+
+#modalContainer
+{
+	visibility: hidden;
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+	position: fixed;
+}
+
+.modal
+{
+	visibility: hidden;
+	z-index: 0;
+	position: absolute;
+	background-color: #d9d9d9;
+	width: 35%;
+	height: 20%;
+	animation-name: riseOutOfNoWhere;
+	animation-duration: 0.3s;
+	margin-left: 32.5%;
+	margin-top: 13%;
+}
+
+.listedInfo
+{
+	overflow-x: scroll;
+	overflow-y: hidden;
+	height: 20%;
+	width: 100%;
+	border-bottom: 1px;
+	background-color: #80c1ff; 
+}
+
+/* Create Study Group Page */
+#createGroup
+{
+	margin-left: 33.5%;
+	margin-top: 4%;
+	height: 100%;
+}
+
+#location
+{
+	height: 20px;
+	width: 48%;
+	border-radius: 5px;
+	border: none;
+	padding: 5px;
+	margin: 2px;
+}
+
+#day::-webkit-inner-spin-button
+{
+	-webkit-appearance: none;
+	display: none;
+}
+
+#map
+{
+	width: 50%;
+	height: 50%;
+	animation-name: appearOutOfNoWhere;
+	animation-duration: 1s;
+}
+
+/*Join Study Group Page*/
+.displayGroupInfo
+{
+	display: grid;
+	grid-template-columns: 17% 17% 24.5% 24.5% 17%;
+	height: 10%;
+	width: 100%;
+}
+
+#advertisedGroupList
+{
+	width: 60%;
+	height: 100%;
+	margin-left: 20%;
+}
+
+.evenDivide /*this class is just a really bad hack...*/
+{
+	display: grid;
+	grid-template-columns: 30% 70%;
+	height: 100%;
+	width: 100%;
+}
+
+/*Help Page*/
+
+#feedbackText
+{
+	
+}
